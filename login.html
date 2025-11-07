@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Login Page</title>
+ <!-- link to external CSS -->
+  <link rel="stylesheet" href="style.css"/>
+  <script src="script.js"></script>
+</head>
+<body>
+  <main class="login-container">
+    <form class="login-box" autocomplete="off">
+      <h2><i class="fa fa-user-circle"></i> Sign in</h2>
+
+      <label for="username">Username</label>
+      <div class="input-group">
+        <i class="fa fa-user"></i>
+        <input type="text" id="username" name="username" required />
+      </div>
+
+      <label for="password">Password</label>
+      <div class="input-group">
+        <i class="fa fa-lock"></i>
+        <input type="password" id="password" name="password" required />
+      </div>
+
+      <div class="options">
+        <label><input type="checkbox" id="showPassword" /> Show password</label>
+        <a href="forget.html">Forgot password?</a>
+      </div>
+
+      <button type="submit">Login</button>
+
+      <p class="register-link">
+        Don't have an account? <a href="register.html">Register now</a>
+      </p>
+    </form>
+  </main>
+
+</body>
+</html>
